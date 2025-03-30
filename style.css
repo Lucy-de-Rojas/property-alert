@@ -69,3 +69,7 @@ nav {
         font-weight: 900;
 
 }
+
+nav > * {
+        width: 20%;
+}
