@@ -29,6 +29,7 @@ let greenLight = '#adcf02';
 let white = '#d0d3d6';
 let greyDark = '#9ea0a3';
 let greyLight = '#d0d3d6';
+let blue = 'MidnightBlue';
 
 let colorNormal = greenDark;
 let colorHighlight = white;
@@ -196,7 +197,49 @@ ContactButton.addEventListener('click', () => {
 
 
 
-
 // on hovers:
 
+AboutButton.addEventListener("mouseover", () => {
+        AboutButton.style.fontWeight = fontWeightBold;
+})
 
+AboutButton.addEventListener("mouseout", () => {
+        AboutButton.style.fontWeight = fontWeightNormal;
+});
+
+
+
+
+SettingUpButton.addEventListener("mouseover", () => {
+        SettingUpButton.style.fontWeight = fontWeightBold;
+})
+
+SettingUpButton.addEventListener("mouseout", () => {
+        SettingUpButton.style.fontWeight = fontWeightNormal;
+});
+
+
+
+
+UsingServiceButton.addEventListener("mouseover", () => {
+        UsingServiceButton.style.fontWeight = fontWeightBold;
+})
+
+UsingServiceButton.addEventListener("mouseout", () => {
+        UsingServiceButton.style.fontWeight = fontWeightNormal;
+});
+
+
+
+
+
+
+
+
+ContactButton.addEventListener("mouseover", () => {
+        ContactButton.style.fontWeight = fontWeightBold;
+})
+
+ContactButton.addEventListener("mouseout", () => {
+        ContactButton.style.fontWeight = fontWeightNormal;
+});
